@@ -38,18 +38,18 @@ False         ChkWndFiles   - Check all the ambient wind files for data consiste
 12            NumTurbines   - Number of wind turbines (-) [>=1] [last 6 columns used only for Mod_AmbWind=2]
 WT_X            WT_Y            WT_Z            WT_FASTInFile   X0_High         Y0_High         Z0_High         dX_High         dY_High         dZ_High        
 (m)             (m)             (m)             (string)        (m)             (m)             (m)             (m)             (m)             (m)            
-1.23948800e+04	-2.49330500e+03	0	"../turbineModel/Test18_WT1.fst"	12318	-2575	1	6	5	5
-1.28311200e+04	-2.57114500e+03	0	"../turbineModel/Test18_WT2.fst"	12750	-2655	1	6	5	5
-1.31775700e+04	-2.41263500e+03	0	"../turbineModel/Test18_WT3.fst"	13098	-2495	1	6	5	5
-1.22394800e+04	-7.17425000e+02	0	"../turbineModel/Test18_WT4.fst"	12162	-800	1	6	5	5
-1.27468500e+04	-7.25275000e+02	0	"../turbineModel/Test18_WT5.fst"	12666	-810	1	6	5	5
-1.31612100e+04	-6.75735000e+02	0	"../turbineModel/Test18_WT6.fst"	13080	-760	1	6	5	5
-1.22965100e+04	5.58575000e+02	0	"../turbineModel/Test18_WT7.fst"	12216	475	1	6	5	5
-1.27322800e+04	5.64145000e+02	0	"../turbineModel/Test18_WT8.fst"	12654	480	1	6	5	5
-1.31298200e+04	5.92795000e+02	0	"../turbineModel/Test18_WT9.fst"	13050	510	1	6	5	5
-1.22616100e+04	2.45996500e+03	0	"../turbineModel/Test18_WT10.fst"	12180	2375	1	6	5	5
-1.27081300e+04	2.56607500e+03	0	"../turbineModel/Test18_WT11.fst"	12630	2485	1	6	5	5
-1.31317900e+04	2.57114500e+03	0	"../turbineModel/Test18_WT12.fst"	13050	2490	1	6	5	5
+1.23948800e+04	-2.49330500e+03	0	"NREL-2p8-127.T1.fst"	12318	-2575	1	6	5	5
+1.28311200e+04	-2.57114500e+03	0	"NREL-2p8-127.T2.fst"	12750	-2655	1	6	5	5
+1.31775700e+04	-2.41263500e+03	0	"NREL-2p8-127.T3.fst"	13098	-2495	1	6	5	5
+1.22394800e+04	-7.17425000e+02	0	"NREL-2p8-127.T4.fst"	12162	-800	1	6	5	5
+1.27468500e+04	-7.25275000e+02	0	"NREL-2p8-127.T5.fst"	12666	-810	1	6	5	5
+1.31612100e+04	-6.75735000e+02	0	"NREL-2p8-127.T6.fst"	13080	-760	1	6	5	5
+1.22965100e+04	5.58575000e+02	0	"NREL-2p8-127.T7.fst"	12216	475	1	6	5	5
+1.27322800e+04	5.64145000e+02	0	"NREL-2p8-127.T8.fst"	12654	480	1	6	5	5
+1.31298200e+04	5.92795000e+02	0	"NREL-2p8-127.T9.fst"	13050	510	1	6	5	5
+1.22616100e+04	2.45996500e+03	0	"NREL-2p8-127.T10.fst"	12180	2375	1	6	5	5
+1.27081300e+04	2.56607500e+03	0	"NREL-2p8-127.T11.fst"	12630	2485	1	6	5	5
+1.31317900e+04	2.57114500e+03	0	"NREL-2p8-127.T12.fst"	13050	2490	1	6	5	5
 --- WAKE DYNAMICS ---
 1             Mod_Wake      - Switch between wake formulations {1:Polar, 2:Curl, 3:Cartesian} (-) (switch)
 5             dr            - Radial increment of radial finite-difference grid (m) [>0.0]
